@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(bg-intro-desktop.png);
+    background-repeat:none;
+    background-color: pink;
+   /* background-image: url(favicon.png);
+    background-repeat:yes;*/
+
+  }
+  main{
+   /* background-color:white;
+    background-image: url(bg-intro-desktop.png);
+    background-repeat:none;
+    background-color: pink;
+    width: 100%;
+    height:100px;*/
+    margin-top: 5%;
+
+    display:flex;
+  }
+  #writUpDiv{
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+  }
+  #formDiv{
+    width: 300px;
+    height: 100%;
+    margin-right:20px;
+    background-color:white;
+  }
+
+  #label{
+    background-color:blue;
+  }
+  .input{
+  width:100%;
+  }
+  #label{
+    width:150px;
+  }
