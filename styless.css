@@ -12,31 +12,39 @@ body {
    /* background-color:white;
     background-image: url(bg-intro-desktop.png);
     background-repeat:none;
-    background-color: pink;
-    width: 100%;
-    height:100px;*/
-    margin-top: 5%;
+    background-color: pink;*/
+    width: 60%;
+    height:60px;
+    margin:auto;
 
     display:flex;
   }
+  @media (min-width:375px) and (max-width:1440px) {
+
+  }
+
   #writUpDiv{
     width: 50%;
     height: 100%;
-    margin-left: 20px;
+    margin-left: 15px;
+    margin-top: 150px;
+
   }
   #formDiv{
-    width: 300px;
-    height: 100%;
-    margin-right:20px;
-    background-color:white;
+    margin-top: 150px;
   }
 
   #label{
-    background-color:blue;
+    background-color: hsl(248, 32%, 49%);
+    margin-right: 0px;
+    height: 3px;
+    font-size: 16px;
+    width:150px;
   }
   .input{
   width:100%;
   }
-  #label{
-    width:150px;
+
+  form {
+
   }
